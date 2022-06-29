@@ -1,0 +1,153 @@
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div id="loading">
+    <i class="fa fa-spinner fa-4x fa-spin  text-white"></i>
+  </div>
+
+
+  <!-- start nav -->
+  <div class="nav ">
+    <div class="nav-item smallNav position-relative  ">
+      <ul>
+        <li class="item1"><a id="NowPlaying" href="#">Now playing</a></li>
+        <li class="item2"><a id="Popular" href="#">Popular</a></li>
+        <li class="item3"><a id="TopRated" href="#">Top Rated</a></li>
+        <li class="item4"><a id="Trending" href="#">Trending</a></li>
+        <li class="item5"><a id="Upcoming" href="#">Upcoming</a></li>
+
+        <li class="item6"><a class="nav-category" href="#ContacUs">Contact Us</a></li>
+      </ul>
+      <div class="endIcon position-absolute start-0 bottom-0 ">
+        <i class="fa-brands fa-facebook text-white "></i>
+        <i class="fa-brands fa-twitter text-white mx-2"></i>
+        <i class="fa-solid fa-globe text-white"></i>
+        <p>Copyright okasha© 2022 All Rights Reserved.</p>
+      </div>
+    </div>
+
+
+
+    <div class=" naaav  d-flex justify-content-between  align-items-center flex-column">
+      <img class="w-50 align-items-center mt-3" src="images/logo (1).png" alt="">
+      <i id="iconClose" class="fa-solid fa-table-list fs-2 openNav"></i>
+
+      <div>
+        <i class="fas fa-globe d-block my-2"></i>
+        <i class="fas fa-share-alt mb-4"></i>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- end nav -->
+
+
+
+
+
+  <div class="firstPageInputs">
+
+    <div class="container  p-5 mt-auto">
+      <div class="row ">
+        <div class="col-md-6 "><input id="getMovies" class="form-control mb-5 text-white inputsStyle"
+            placeholder="get movies by word...">
+        </div>
+
+        <div class="col-md-6"><input class="form-control text-white inputsStyle" id="serch" placeholder="search...">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <section class="allMovies">
+    <div class="container">
+      <div class="row g-4" id="rowData">
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <footer class="pt-5 " id="ContacUs">
+    <div class="container   w-75 text-white">
+      <h2 class="px-3">ContacUs... </h2>
+    </div>
+    <div class="container p-5  ">
+      <div class="row ">
+
+        <div class="col-md-6 "><input id="inputName" class="form-control text-white chekk "
+            placeholder="Enter Your Name">
+          <p id="errorMessageName" class="bg-danger p-3 text-white text-center fst-italic  d-none mb-4 "> Your Name is
+            not
+            valid </p>
+        </div>
+
+
+        <div class="col-md-6"><input class="form-control inputsStyle chekk text-white  " id="inputEmail"
+            placeholder="Enter Email">
+          <p id="errorMessageEmail" class="bg-danger p-3 text-white text-center fst-italic  d-none mb-4 "> entre valid
+            email
+          </p>
+        </div>
+
+
+        <div class="col-md-6"> <input type="text" class="form-control chekk  text-white  " id="phoneInput"
+            placeholder="Enter Phone">
+          <p id="errorPhone" class="bg-danger p-3 text-white text-center fst-italic  is d-none mb-4"> entre valid phone
+          </p>
+        </div>
+
+        <div class="col-md-6"><input type="" class="form-control  chekk text-white " id="ageInput"
+            placeholder="enter your age">
+          <p id="errorAge" class="bg-danger p-3 text-white text-center fst-italic  d-none mb-4"> entre valid Age</p>
+        </div>
+
+
+
+        <div class="col-md-6"><input type="password" class="form-control inputsStyle  chekk  text-white " id="inputPass"
+            placeholder="Enter Password">
+          <p id="errorMessagePass" class="bg-danger p-3 text-white text-center fst-italic  d-none mb-4">It must begin
+            with an
+            uppercase letter and then be followed by lowercase letters or numbers. Password must be
+            more than six and not more than twenty
+          </p>
+        </div>
+
+
+        <div class="col-md-6"><input type="password" class="form-control inputsStyle  chekk  text-white "
+            id="inputRePass" placeholder="Enter RePassword">
+          <p id="errorMessageRePass" class="bg-danger p-3 text-white text-center fst-italic  d-none mb-4"> Password does
+            not match</p>
+
+        </div>
+
+      </div>
+      <button id="submit" type="button" class="btn btn-outline-success  mx-5" disabled>submit</button>
+
+    </div>
+  </footer>
+
+
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

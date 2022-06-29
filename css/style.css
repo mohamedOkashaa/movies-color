@@ -1,0 +1,197 @@
+ * {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: 0px;
+ }
+ body{
+   overflow: hidden;
+   background-color: #020426;
+ }
+ .naaav{
+   background-color: #F1E7CE;
+ }
+
+ #loading{
+    position: fixed;
+   inset: 0;
+   background-color: #000;
+   z-index: 9999999999999999999999999 !important; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ 
+ .smallNav {
+    background-color: #000;
+
+ }
+
+ .nav {
+    position: fixed;
+    height: 100% !important;
+    z-index: 9999999;
+    left: -195.812px;
+ }
+
+ i {
+    cursor: pointer;
+ }
+
+ .item1,
+ .item2,
+ .item3,
+ .item4,
+ .item5,
+ .item6 {
+    position: relative;
+    top: 150%;
+    right: 150%;
+ }
+
+ .nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 50px;
+ }
+
+ a {
+
+    text-decoration: none;
+    color: #fff;
+ }
+
+ li {
+    list-style-type: none;
+ }
+
+ .endIcon {
+    padding: 25px;
+    
+ }
+
+ .item1,
+ .item2,
+ .item3,
+ .item4,
+ .item5,
+ .item6 {
+    padding-top: 35px;
+    padding-right: 25px;
+
+ }
+
+
+ #getMovies,
+ #serch,
+ #inputName,
+ #inputEmail,
+ #inputAge,
+ #inputPass,
+ #inputRePass,
+ #phoneInput,
+ #ageInput {
+    border: none;
+    background-color: transparent;
+    border-bottom: #09c solid 3px;
+    margin-bottom: 30px;
+ }
+
+ /* ssssssssssssssssssss */
+ /* .allMovies{
+   background-color: blue;
+   margin-left: 50px;
+} */
+
+
+ input,
+ input[placeholder] {
+    text-align: center;
+   
+ }
+
+
+ .cap1 {
+    position: relative;
+    overflow: hidden;
+ }
+
+ .layer1 {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 1s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+ }
+
+ .cap1:hover .layer1 {
+    top: 0%;
+ }
+
+ .row {
+    margin-left: 50px;
+ }
+
+ @media screen and (max-width:400px) {
+
+    h3 {
+       font-size: 15px;
+       font-weight: bolder;
+    }
+
+    p {
+       font-size: 13px;
+       line-height: 14px;
+    }
+
+    input,
+    input[placeholder] {
+       font-size: 12px;
+       font-weight: bolder;
+    }
+
+ }
+
+ @media screen and (min-width:765px)and (max-width:990px) {
+    h3 {
+       font-size: 16px;
+       font-weight: bold;
+    }
+
+    p {
+       font-size: 15px;
+       line-height: 16px;
+    }
+ }
+
+ @media screen and (min-width:991px)and (max-width:1200px) {
+   h3 {
+      font-size: 18px;
+      font-weight: bold;
+   }
+
+   p {
+      font-size: 16px;
+      line-height: 16px;
+   }
+}
+@media screen and (min-width:1201px)and (max-width:1400px) {
+   h3 {
+      font-size: 19px;
+      font-weight: bold;
+   }
+
+   p {
+      font-size: 16px;
+      line-height: 20px;
+   }
+}
